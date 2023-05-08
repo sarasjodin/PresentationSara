@@ -1,0 +1,130 @@
+a:-webkit-any-link {
+  color: rgb(255, 205, 7);
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  line-height: 1.4em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column:last-child {
+  margin-right: 0;
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin: 0;
+}
+
+a:link {
+  color: rgb(255, 77, 0);
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+a:active,
+a:visited,
+.light {
+  color: rgb(255, 205, 7);
+}
+
+/* Parallax section */
+.first img {
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.parallax {
+  height: 100vh; /* change this to full height */
+  position: relative;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: larger;
+  line-height: 1.4em;
+}
+
+.parallax-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered {
+  max-width: 400px;
+  margin: 0 auto;
+  color: white;
+}
+
+.first {
+  left: 35%;
+}
+
+.parallax .bg-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-attachment: fixed;
+}
+
+.parallax .bg-black {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.parallax .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2); /* adjust the opacity as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.parallax .overlayimage {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255); /* adjust the opacity as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
